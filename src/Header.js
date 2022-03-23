@@ -11,8 +11,8 @@ function Header() {
             <div>
             <i onClick={()=>setShow(!show)} className="fa-solid fa-bars" ></i>
             </div>
-            <div className={show ? "navbar ":"navLinkFlex"}>
-            <ul  type='none'>
+            
+            <ul className={show ? "navbar ":"navLinkFlex"}  type='none'>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/home" className="headerNavLink">Home</NavLink></li>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/bollywood" className="headerNavLink">Bollywood</NavLink></li>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/hollywood" className="headerNavLink">HollyWood</NavLink></li>
@@ -23,7 +23,7 @@ function Header() {
 
 
             </ul>
-            </div>
+            
            
         </div>
     )

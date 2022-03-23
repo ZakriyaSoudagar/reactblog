@@ -85,9 +85,9 @@ body{
 }
 .navLinkFlex li{
    
-    display: flex;
+    display:inline-block;
     flex-direction: row;
-    justify-content: space-evenly;
+    margin-right: 30px;
 }
 
 .tittleHead{
@@ -336,16 +336,16 @@ div {
     margin-right: 5px;
 }
 
-/* @media screen and (max-widt:"390px"){
+@media screen and (max-widt:"390px"){
 
     .fa-solid
     {
         display: block;
     }
       
-    .navbar
+    .navbar li
     {
-        display: flex;
+        display: block;
         flex-direction: column;
         justify-content: center;
     }
@@ -353,4 +353,4 @@ div {
 
   
     
-} */
+} 
