@@ -14,6 +14,11 @@ body{
     
 }
 
+.fa-solid
+{
+    display: block;
+}
+
 .cardImgBox{
     margin-left: 5px;
     margin-right: 5px;
@@ -75,9 +80,11 @@ body{
 
 
 }
-.navLinkFlex{
-    /* text-decoration: none;
-    color: black; */
+.fa-solid{
+    display: none;
+}
+.navLinkFlex li{
+   
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -328,3 +335,22 @@ div {
     border-bottom: 3px solid pink;
     margin-right: 5px;
 }
+
+/* @media screen and (max-widt:"390px"){
+
+    .fa-solid
+    {
+        display: block;
+    }
+      
+    .navbar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+  
+    
+} */

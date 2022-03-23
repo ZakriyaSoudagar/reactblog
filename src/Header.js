@@ -1,11 +1,18 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import '../src/Components/Style/Style.css';
+import { useState } from 'react';
 
 function Header() {
+    const [show, setShow] =useState(false);
     return (
         <div className='header'>
             <div className='tittleHead'><div className='longText'>The</div><span className='headOfText'>Serin</span></div>
-            <ul className='navLinkFlex' type='none'>
+            <div>
+            <i onClick={()=>setShow(!show)} className="fa-solid fa-bars" ></i>
+            </div>
+            <div className={show ? "navbar ":"navLinkFlex"}>
+            <ul  type='none'>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/home" className="headerNavLink">Home</NavLink></li>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/bollywood" className="headerNavLink">Bollywood</NavLink></li>
                 <li><NavLink style={({isActive})=>{return{"color":isActive? "red":''}}} to="/hollywood" className="headerNavLink">HollyWood</NavLink></li>
@@ -16,6 +23,8 @@ function Header() {
 
 
             </ul>
+            </div>
+           
         </div>
     )
 }

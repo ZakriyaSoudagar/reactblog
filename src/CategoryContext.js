@@ -156,7 +156,7 @@ export const DataProvider=(props)=>{
     Name: "Cloud Computing ",
     Date: "9 Aug 2006",
     Details:"  Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. ",
-    Img: "https://miro.medium.com/max/640/1*ngkHgQq7ij1NBNr62er3zA.png",
+    Img: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200710234318/Why-Cloud-Computing-is-Booming-in-the-Market.png",
     About: "Apple (AAPL) iOS is the operating system for iPhone, iPad, and other Apple mobile devices. Based on Mac OS, the operating system which runs Apple’s line of Mac desktop and laptop computers, Apple iOS is designed for easy, seamless networking between a range of Apple products."
 },
 {
@@ -174,7 +174,7 @@ export const DataProvider=(props)=>{
     Name: "Linux ",
     Date: "17 September 1991",
     Details:"  Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution",
-    Img: "https://www.howtogeek.com/wp-content/uploads/2021/09/linux_tux_hero_2.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1",
+    Img: "https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg",
     About: "Think about an OS like a car engine. An engine can run on its own, but it becomes a functional car when it’s connected with a transmission, axles, and wheels. Without the engine running properly, the rest of the car won’t work.Linux was designed to be similar to UNIX, but has evolved to run on a wide variety of hardware from phones to supercomputers. Every Linux-based OS involves the Linux kernel—which manages hardware resources—and a set of software packages that make up the rest of the operating system.The OS includes some common core components, like the GNU tools, among others. These tools give the user a way to manage the resources provided by the kernel, install additional software, configure performance and security settings, and more. All of these tools bundled together make up the functional operating system. Because Linux is an open source OS, combinations of software can vary between Linux distributions."
 },
 {
@@ -307,7 +307,7 @@ export const DataProvider=(props)=>{
     Name: "Palak paneer  ",
     Date:"19th Century",
     Details:" Palak paneer is a vegetarian dish, consisting of paneer in a thick paste made from puréed spinach, called palak in Hindi, Marathi, Gujarati, and other Indian languages. The terms palak paneer and saag paneer are sometimes used interchangeably in restaurants in the United States and Canada. ",
-    Img: "https://static.toiimg.com/photo/53093667.cms",
+    Img: "https://healthynibblesandbits.com/wp-content/uploads/2020/01/Saag-Paneer-FF.jpg",
     About: "Health benefits of palak paneer-1)Palak paneer is a rich source of protein and can help facilitate the process of weight management that involves muscle building through workouts.2)It contains onions which are a good source of antioxidants and can promote hair health and improve immunity.Vitamin C can help boost immunity."
 },
 {
@@ -316,8 +316,8 @@ export const DataProvider=(props)=>{
     Name: "Surya Namaskar ",
     Date: "17th century ",
     Details:" Sun Salutation or Salute to the Sun (Surya Namaskar: Sanskrit: सूर्यनमस्कार, romanized: Sūryanamaskāra), is a practice in yoga as exercise incorporating a flow sequence of some twelve gracefully linked asanas. ... The set of 12 asanas is dedicated to the Hindu solar deity Surya. ",
-    Img: "https://saachibaat.com/wp-content/uploads/2021/08/Surya-Namaskar.jpg",
-    About: "Sun Salutation or Salute to the Sun (Surya Namaskar: Sanskrit: सूर्यनमस्कार, romanized: Sūryanamaskāra),[2] is a practice in yoga as exercise incorporating a flow sequence of some twelve gracefully linked asanas.[3][4] The asana sequence was first recorded as yoga in the early 20th century, though similar exercises were in use in India before that, for example among wrestlers. The basic sequence involves moving from a standing position into Downward and Upward Dog poses and then back to the standing position, but many variations are possible. The set of 12 asanas is dedicated to the Hindu solar deity Surya. In some Indian traditions, the positions are each associated with a different mantra.The precise origins of the Sun Salutation are uncertain, but the sequence was made popular in the early 20th century by Bhawanrao Shriniwasrao Pant Pratinidhi, the Rajah of Aundh, and adopted into yoga by Krishnamacharya in the Mysore Palace, where the Sun Salutation classes, not then considered to be yoga, were held next door to his yogasala. Pioneering yoga teachers taught by Krishnamacharya, including Pattabhi Jois and B. K. S. Iyengar, taught transitions between asanas derived from the Sun Salutation to their pupils worldwide."
+    Img: "https://c.ndtvimg.com/2019-02/9dsmudc_surya-namaskar_625x300_28_February_19.jpg",
+    About: "Sun Salutation or Salute to the Sun (Surya Namaskar: Sanskrit: सूर्यनमस्कार, romanized: Sūryanamaskāra),[2] is a practice in yoga as exercise incorporating a flow sequence of some twelve gracefully linked asanas.[3][4] The asana sequence was first recorded as yoga in the early 20th century, though similar exercises were in use in India before that, for example among wrestlers. The basic sequence involves moving from a standing position into Downward and Upward Dog poses and then back to the standing position, but many variations are possible. The set of 12 asanas is dedicated to the Hindu solar deity Surya. In some Indian traditions, the positions are each associated with a different mantra.The precise origins of the Sun Salutation are uncertain, but the sequence was made popular in the early 20th century by Bhawanrao Shriniwasrao Pant Pratinidhi, the Rajah of Aundh, and adopted into yoga by Krishnamacharya in the Mysore Palace, where the Sun Salutation classes, not then considered to be yoga, were held next door to his yogasala. Pioneering yoga teachers taught by Krishnamacharya, including Pattabhi Jois and B. K. S. Iyengar, taught transitions between asanas derived from the Sun Salutation to their pupils worldwide.",
 },
 {
     Id: "T8",
@@ -325,7 +325,7 @@ export const DataProvider=(props)=>{
     Name: "Cloud Computing ",
     Date: "9 Aug 2006",
     Details:"  Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. ",
-    Img: "https://miro.medium.com/max/640/1*ngkHgQq7ij1NBNr62er3zA.png",
+    Img: "https://www.fastmetrics.com/blog/wp-content/uploads/2014/10/cloud-computing-service-types-including-IoT-1024x706.png",
     About: "Apple (AAPL) iOS is the operating system for iPhone, iPad, and other Apple mobile devices. Based on Mac OS, the operating system which runs Apple’s line of Mac desktop and laptop computers, Apple iOS is designed for easy, seamless networking between a range of Apple products."
 },
 
